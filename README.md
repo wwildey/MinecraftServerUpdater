@@ -15,7 +15,7 @@ BACKUP_DIR =
 Log File
 LOG_FILENAME =
 
-Examples:
+# Examples:
 # Common config settings 
 UPDATE_TO_SNAPSHOT = False
 MANIFEST_URL = "https://launchermeta.mojang.com/mc/game/version_manifest.json"
@@ -23,18 +23,18 @@ LOG_FILENAME = 'auto_updater.log'
 BACKUP_WORLD_NAME = '<minecraft World name>'
 
 # CONFIGURATION Windows - Un-comment and set if running on Windows
-#BACKUP_DIR = '<path to backup directory>'
-#BACKUP_WORLD = '<path to current running world>'
-#current_server_path = u'..\\minecraft_server.jar'
+# BACKUP_DIR = '<path to backup directory>'
+# BACKUP_WORLD = '<path to current running world>'
+# current_server_path = u'..\\minecraft_server.jar'
 # I use a bat file to run server
-#start_mc_file = u'..\\minecraft_server_start.bat'
+# start_mc_file = u'..\\minecraft_server_start.bat'
 
 # CONFIGURATION Linux, Darwin - Un-comment and set if running on Kinux, Darwin
-#BACKUP_DIR = '<path to backup directory>'
-#BACKUP_WORLD = '<path to current running world>'
-#current_server_path = u'..\\server.jar'
+# BACKUP_DIR = '<path to backup directory>'
+# BACKUP_WORLD = '<path to current running world>'
+# current_server_path = u'..\\server.jar'
 # I use a bash file to run server
-#start_mc_file = u'..\\minecraft_server_start.sh' 
+# start_mc_file = u'..\\minecraft_server_start.sh' 
 
 
 Scheduling Updates
